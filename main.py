@@ -86,9 +86,6 @@ def get_gemini_vision_response(input_text, image):
 
     return response_graph.text
 
-# Define dataset location
-dataset_location = r".\Yolo\floorplan-1"
-print(dataset_location)
 
 # Load YOLO model
 model_yolo = YOLO(r'.\Yolo\best.pt')
